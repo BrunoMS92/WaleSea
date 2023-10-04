@@ -85,15 +85,13 @@
         />
 
     <TextView
-        android:id="@+id/txt_TelaCadastro"
+        android:id="@+id/txt_IrTelaCadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_cadastro"
+        android:text="@string/text_login"
         android:textSize="21sp"
         android:textColor="@color/white"
         android:textStyle="bold"
-
-        android:onClick="@{() -> viewModel.navigateToCadastro()}"
 
         android:layout_marginTop="20dp"
         android:layout_marginBottom="30dp"

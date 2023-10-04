@@ -14,6 +14,7 @@ class TelaCadastro : AppCompatActivity() {
         binding = ActivityTelaCadastroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.txtIrTelaLogin.text ="Já possuí uma conta ? Clique aqui"
 
 
         getSupportActionBar()!!?.hide()

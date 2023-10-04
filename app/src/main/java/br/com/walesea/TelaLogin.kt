@@ -15,10 +15,9 @@ class TelaLogin : AppCompatActivity() {
         binding = ActivityTelaLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //COLOCAR OS ID AQUI
 
-        binding.txtTelaCadastro.text="Crie uma conta Clicando Aqui !"
 
+        binding.txtIrTelaCadastrar.text="Crie uma conta Clicando Aqui !"
 
 
         getSupportActionBar()!!?.hide()
